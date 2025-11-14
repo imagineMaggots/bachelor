@@ -1,0 +1,13 @@
+*.aux
+*.log
+*.bat
+*.toc
+*.txt
+*.md5
+*.dtx
+*.dpth
+*.blg
+*.bbl
+*.auxlock
+*.lof
+*.lot

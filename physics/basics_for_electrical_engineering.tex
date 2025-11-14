@@ -1,0 +1,58 @@
+\documentclass[a4paper,11pt,toc]{report}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning}
+\usepackage{pgfplots}
+\usepackage{csquotes}
+\usepackage{caption}
+\usepackage{array}
+\usepackage{booktabs}
+
+\title{Basic Physics for electrical engineering}
+\author{Hendrik Theede}
+\date{\today}
+
+
+\usepackage[linktoc=all]{hyperref}
+\hypersetup{linkcolor=green}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    This file contains a small summary of the contents of the \texttt{Physik für Elektrotechnik} course at the University of Rostock.
+    Might include unnecessary commentary and will not be peer reviewed. 
+%
+    Written in \TeX{} with reference to Prof.\ Hage (whose course i attended in 2021/22).
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\setcounter{chapter}{-1}
+\chapter[Basics]{Units and Equations}
+\subsection*{Units and Unit-Prefixes}
+There exists a small set of SI-Units, which together make up all other known physical units. 
+SI itself refers to the french \textit{Système international d'unites}, which simply means \textbf{International System for units}.
+A unit itself is a way to measure a specific amount of a physically described perceived part of our life (dimensions like time, lengths/space, temperature, mass, amounts, \ldots).
+Table~\ref{tab:siunits} provides an overview.
+
+\begin{table}
+    \centering
+    \begin{tabular}{l l l l}
+        \toprule[3pt]
+            Dimension & SI-unit (symbol) & unit & unit (symbol)\\
+        \midrule[2pt]
+            time & $t$ & second & $s$ \\
+            length & $l$ & metre & $m$ \\
+            mass & $m$ & gramm & $g$ \\
+            current (electrical) & $I$ & Ampere & $A$ \\
+            temperature (thermodynamic) & $T$ & Kelvin & $K$ \\
+            amount of substance & $n$ & mol & $mol$ \\
+            light's strength & $I_v$ & second & $s$ \\
+        \bottomrule[3pt]
+    \end{tabular}
+    \caption{List of the known SI-Units.}\label{tab:siunits}
+\end{table}
+
+
+\end{document}
